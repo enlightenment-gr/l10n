@@ -13,13 +13,13 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2012-11-27 22:00+0100\n"
-"PO-Revision-Date: 2012-12-07 03:48+0200\n"
+"PO-Revision-Date: 2012-12-10 00:56+0200\n"
 "Last-Translator: Efstathios Iosifidis <iosifidis@opensuse.org>\n"
 "Language-Team: Ελληνικά, Σύγχρονα <opensuse-translation-el@opensuse.org>\n"
 "Language: el_GR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bits\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Gtranslator 2.91.5\n"
 
@@ -130,7 +130,7 @@ msgstr "Αποσύνδεση"
 
 #: src/bin/e_actions.c:2278 src/bin/e_actions.c:2409
 msgid "Are you sure you want to turn off?"
-msgstr "Επιθυμείτε σίγουρα τον τερματισμό του συστήματος?"
+msgstr "Επιθυμείτε σίγουρα τον τερματισμό του συστήματος;"
 
 #: src/bin/e_actions.c:2280
 msgid ""
@@ -218,7 +218,7 @@ msgstr "Ανύψωση"
 
 #: src/bin/e_actions.c:2995 src/bin/e_int_border_menu.c:1055
 msgid "Lower"
-msgstr "Βύθιση"
+msgstr "Χαμηλά"
 
 #: src/bin/e_actions.c:3010 src/bin/e_actions.c:3014 src/bin/e_actions.c:3019
 #: src/bin/e_actions.c:3023 src/bin/e_actions.c:3028 src/bin/e_actions.c:3032
@@ -279,7 +279,7 @@ msgstr "Μεγιστοποίηση Δεξιά"
 
 #: src/bin/e_actions.c:3052
 msgid "Maximize Fullscreen"
-msgstr "Μεγιστοποίηση σε πλήρη οθόνη"
+msgstr "Μεγιστοποίηση σε Πλήρη Οθόνη"
 
 #: src/bin/e_actions.c:3054
 msgid "Maximize Mode \"Smart\""
