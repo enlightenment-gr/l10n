@@ -21,7 +21,7 @@ msgstr ""
 
 #: src/lib/elc_fileselector.c:749
 msgid "Up"
-msgstr ""
+msgstr "Πανω"
 
 #: src/lib/elc_fileselector.c:764
 msgid "Home"
@@ -51,7 +51,7 @@ msgstr "Κατάσταση: Απενεργοποιημένο"
 
 #: src/lib/elm_button.c:290
 msgid "Button"
-msgstr ""
+msgstr "Κουμπι"
 
 #: src/lib/elm_calendar.c:132
 msgid "%B %Y"
@@ -85,7 +85,7 @@ msgstr "Κατάσταση: Ανενεργό"
 
 #: src/lib/elm_check.c:209 src/lib/elm_check.c:222
 msgid "State"
-msgstr ""
+msgstr "Κατασταση"
 
 #: src/lib/elm_check.c:289
 msgid "Check"
