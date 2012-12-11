@@ -21,7 +21,7 @@ msgstr ""
 
 #: src/lib/elc_fileselector.c:749
 msgid "Up"
-msgstr "Πανω"
+msgstr "Πάνω"
 
 #: src/lib/elc_fileselector.c:764
 msgid "Home"
@@ -51,7 +51,7 @@ msgstr "Κατάσταση: Απενεργοποιημένο"
 
 #: src/lib/elm_button.c:290
 msgid "Button"
-msgstr "Κουμπι"
+msgstr "Κουμπί"
 
 #: src/lib/elm_calendar.c:132
 msgid "%B %Y"
@@ -85,7 +85,7 @@ msgstr "Κατάσταση: Ανενεργό"
 
 #: src/lib/elm_check.c:209 src/lib/elm_check.c:222
 msgid "State"
-msgstr "Κατασταση"
+msgstr "Κατάσταση"
 
 #: src/lib/elm_check.c:289
 msgid "Check"
@@ -97,7 +97,7 @@ msgstr ""
 
 #: src/lib/elm_config.c:2117
 msgid "default:LTR"
-msgstr "default:RTL"
+msgstr "default:LTR"
 
 #: src/lib/elm_diskselector.c:630
 msgid "diskselector item"
