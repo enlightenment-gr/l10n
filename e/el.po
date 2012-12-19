@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2012-12-17 18:33+0200\n"
-"PO-Revision-Date: 2012-12-19 16:13+0200\n"
+"PO-Revision-Date: 2012-12-19 18:37+0200\n"
 "Last-Translator: Efstathios Iosifidis <iosifidis@opensuse.org>\n"
 "Language-Team: Ελληνικά, Σύγχρονα <opensuse-translation-el@opensuse.org>\n"
 "Language: el_GR\n"
@@ -683,7 +683,7 @@ msgstr "Εφαρμογή"
 
 #: src/bin/e_actions.c:3358
 msgid "New Instance of Focused App"
-msgstr ""
+msgstr "Νέο Στιγμιότυπο της Εστιασμένης Εφαρμογής"
 
 #: src/bin/e_actions.c:3362 src/bin/e_int_menus.c:249
 msgid "Restart"
