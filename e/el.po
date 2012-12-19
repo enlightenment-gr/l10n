@@ -13,14 +13,14 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2012-12-17 18:33+0200\n"
-"PO-Revision-Date: 2012-12-19 00:26+0200\n"
+"PO-Revision-Date: 2012-12-19 02:08+0200\n"
 "Last-Translator: Efstathios Iosifidis <iosifidis@opensuse.org>\n"
-"Language-Team: Ελληνικά, Σύγχρονα <opensuse-translation-el@opensuse.org>\n"
+"Language-Team: Ελληνικά <opensuse-translation-el@opensuse.org>\n"
 "Language: el_GR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bits\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Gtranslator 2.91.5\n"
 
 #: src/bin/e_about.c:17
@@ -6691,7 +6691,7 @@ msgstr "Κείμενο Ελέγχου"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:106
 msgid "Check Text Disabled"
-msgstr "Απενενεργό Κείμενο Ελέγχου"
+msgstr "Ανενεργό Κείμενο Ελέγχου"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:107
 msgid "Entry Text"
@@ -6699,7 +6699,7 @@ msgstr "Κείμενο καταχώρησης"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:108
 msgid "Entry Text Disabled"
-msgstr "Απενενεργό Κείμενο Καταχώρησης"
+msgstr "Ανενεργό Κείμενο Καταχώρησης"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:109
 msgid "Label Text"
@@ -6708,47 +6708,47 @@ msgstr "Κείμενο Ετικέτας"
 #: src/modules/conf_theme/e_int_config_color_classes.c:110
 #, fuzzy
 msgid "List Item Text Selected"
-msgstr "Λίστα Κείμενο επιλεγμένου αντικειμένου"
+msgstr "Επιλεγμέχθηκε Κείμενο Λίστας Αντικειμένου"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:111
 #, fuzzy
 msgid "List Item Text (Even)"
-msgstr "Λίστα Κείμενο Προϊόν (ζυγός)"
+msgstr "Κείμενο Λίστας Αντικειμένου (Ζυγός)"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:112
 #, fuzzy
 msgid "List Item Background Base (Even)"
-msgstr "Κατάλογος Ιστορικό Βάση Προϊόν (ζυγός)"
+msgstr "Βάση Παρασκηνίου Λίστας Αντικειμένου (Ζυγός)"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:113
 #, fuzzy
 msgid "List Item Text (Odd)"
-msgstr "Λίστα Κείμενο Προϊόν (Odd."
+msgstr "Κείμενο Λίστας Αντικειμένου (Μονός)"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:114
 #, fuzzy
 msgid "List Item Background Base (Odd)"
-msgstr "Κατάλογος Ιστορικό Βάση Προϊόν (Odd."
+msgstr "Βάση Παρασκηνίου Λίστας Αντικειμένου (Μονός)"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:115
 #, fuzzy
 msgid "List Header Text (Even)"
-msgstr "Λίστα Κείμενο κεφαλίδας (ζυγός)"
+msgstr "Κείμενο Λίστας Επιεφαλίδας (Ζυγός)"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:116
 #, fuzzy
 msgid "List Header Background Base (Even)"
-msgstr "Λίστα Βάση Ιστορικό Header (ζυγός)"
+msgstr "Βάση Παρασκηνίου Λίστα Επικεφαλίδας (Ζυγός)"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:117
 #, fuzzy
 msgid "List Header Text (Odd)"
-msgstr "Λίστα Κείμενο κεφαλίδας (Μονό."
+msgstr "Κείμενο Λίστας Επικεφαλίδας (Μονός)"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:119
 #, fuzzy
 msgid "List Header Background Base (Odd)"
-msgstr "Λίστα Βάση Ιστορικό Header (Odd."
+msgstr "Βάση Παρασκηνίου Λίστας Επικεφαλίδας (Μονός)"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:120
 msgid "Radio Text"
@@ -6756,33 +6756,33 @@ msgstr "Κείμενο επιλογής"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:121
 msgid "Radio Text Disabled"
-msgstr "Κείμενο επιλογής ανενεργό"
+msgstr "Ανενεργό Κείμενο Επιλογής"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:122
 msgid "Slider Text"
-msgstr "Κείμενο συστατικού κύλισης"
+msgstr "Κείμενο Μπάρας Κύλισης"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:123
 msgid "Slider Text Disabled"
-msgstr "Κείμενο συστατικού κύλισης ανενεργό"
+msgstr "Ανενεργό Κείμενο Μπάρας Κύλισης"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:124
 msgid "Frame Background Base"
-msgstr "Βάση φόντου πλαισίου"
+msgstr "Βάση Παρασκηνίου Πλαισίου"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:125
 #, fuzzy
 msgid "Scroller Frame Background Base"
-msgstr "Βάση Scroller Ιστορικό Πλαίσιο"
+msgstr "Βάση Παρασκηνίου Στήλης Κύλισης Πλαισίου"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:130
 msgid "Module Label"
-msgstr "Ετικέτα αρθρώματος"
+msgstr "Ετικέτα Αρθρώματος"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:131
 #, fuzzy
 msgid "Composite Focus-out Color"
-msgstr "Σύνθετα Focus -out Χρώμα"
+msgstr "Χρώμα Σύνθετου Focus -ou"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:163
 #: src/modules/conf_theme/e_mod_main.c:240
@@ -7414,7 +7414,6 @@ msgid "New Windows"
 msgstr "Νέα παράθυρα"
 
 #: src/modules/conf_window_manipulation/e_int_config_window_display.c:194
-#, fuzzy
 msgid "Animate"
 msgstr "Κίνηση"
 
@@ -7450,14 +7449,12 @@ msgid "Pronounced Accelerate, then decelerate"
 msgstr "Οι έντονες Acceleratem τότε επιβραδυνθεί"
 
 #: src/modules/conf_window_manipulation/e_int_config_window_display.c:241
-#, fuzzy
 msgid "Bounce"
 msgstr "Αναπήδηση"
 
 #: src/modules/conf_window_manipulation/e_int_config_window_display.c:246
-#, fuzzy
 msgid "Bounce more"
-msgstr "Αναπήδηση περισσότερο"
+msgstr "Περισσότερη Αναπήδηση"
 
 #: src/modules/conf_window_manipulation/e_int_config_window_display.c:251
 msgid "Shading"
@@ -7755,9 +7752,8 @@ msgid "Kill process instead of client"
 msgstr ""
 
 #: src/modules/conf_window_manipulation/e_int_config_window_process.c:99
-#, fuzzy
 msgid "Kill timeout:"
-msgstr "Χρονικό όριο απόκρυψης"
+msgstr "Χρονικό όριο βίαιου τερματισμού:"
 
 #: src/modules/conf_window_manipulation/e_int_config_window_process.c:105
 #, fuzzy
@@ -9817,9 +9813,8 @@ msgstr ""
 #: src/modules/quickaccess/e_mod_quickaccess.c:1015
 #: src/modules/quickaccess/e_mod_quickaccess.c:1227
 #: src/modules/quickaccess/e_mod_quickaccess.c:1250
-#, fuzzy
 msgid "Continue"
-msgstr "Υποδοχέας"
+msgstr "Συνέχεια"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:377
 msgid "More Help"
@@ -10075,9 +10070,8 @@ msgid ""
 msgstr ""
 
 #: src/modules/shot/e_mod_main.c:566
-#, fuzzy
 msgid "Confirm"
-msgstr "Ρύθμιση"
+msgstr "Επιβεβαίωση"
 
 #: src/modules/shot/e_mod_main.c:666
 msgid "Where to put Screenshot..."
