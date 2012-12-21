@@ -13,14 +13,14 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2012-12-17 18:33+0200\n"
-"PO-Revision-Date: 2012-12-20 18:52+0200\n"
+"PO-Revision-Date: 2012-12-21 02:16+0200\n"
 "Last-Translator: Efstathios Iosifidis <iosifidis@opensuse.org>\n"
-"Language-Team: Ελληνικά, Σύγχρονα <opensuse-translation-el@opensuse.org>\n"
+"Language-Team: Ελληνικά <opensuse-translation-el@opensuse.org>\n"
 "Language: el_GR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Gtranslator 2.91.5\n"
 
 #: src/bin/e_about.c:17
@@ -1438,7 +1438,7 @@ msgstr "Σφάλμα"
 #: src/bin/e_fm.c:6565 src/bin/e_fm.c:6598
 #, c-format
 msgid "The recent DND operation requested for '%s' has failed."
-msgstr ""
+msgstr "Απέτυχε η πρόσφατη λειτουργία DND που αιτήθηκε για '%s'."
 
 #: src/bin/e_fm.c:8681 src/modules/fileman/e_mod_config.c:357
 msgid "Case Sensitive"
@@ -1552,7 +1552,6 @@ msgid "Icon Size (%d)"
 msgstr "Μέγεθος Εικονιδίου (%d)"
 
 #: src/bin/e_fm.c:9493
-#, fuzzy
 msgid "Could not create a directory!"
 msgstr "Αδυναμία δημιουργίας καταλόγου!"
 
@@ -1645,19 +1644,18 @@ msgid "Rename File"
 msgstr "Μετονομασία αρχείου"
 
 #: src/bin/e_fm.c:10260 src/bin/e_fm.c:10293
-#, fuzzy, c-format
+#, c-format
 msgid "%s already exists!"
-msgstr "Υπάρχει ήδη ένα ράφι με αυτό το όνομα!"
+msgstr "το %s υπάρχει ήδη!"
 
 #: src/bin/e_fm.c:10263 src/bin/e_fm.c:10297
 #, c-format
 msgid "%s could not be renamed because it is protected"
-msgstr ""
+msgstr "αδυναμία μετονομασίας του %s γιατί είναι προστατευμένο"
 
 #: src/bin/e_fm.c:10266 src/bin/e_fm.c:10300
-#, fuzzy
 msgid "Internal filemanager error :("
-msgstr "Άνοιγμα διαχειριστή αρχείων κατά την προσάρτηση"
+msgstr "Εσωτερικό σφάλμα διαχειριστή αρχείων :("
 
 #: src/bin/e_fm.c:10354 src/bin/e_fm.c:10575
 msgid "Retry"
@@ -1863,9 +1861,8 @@ msgid "Select an Image"
 msgstr "Επιλογή Εικόνας"
 
 #: src/bin/e_gadcon.c:1400
-#, fuzzy
 msgid "Gadget error"
-msgstr "Διαχειριστής συστατικών"
+msgstr "Σφάλμα συστατικού"
 
 #: src/bin/e_gadcon.c:1400
 #, c-format
@@ -1910,12 +1907,12 @@ msgstr "Διακοπή κίνησης"
 
 #: src/bin/e_gadcon.c:3084
 msgid "Insufficent gadcon support"
-msgstr ""
+msgstr "Ανεπαρκής υποστήριξη για το garcon"
 
 #: src/bin/e_gadcon.c:3085
 #, c-format
 msgid "Module %s needs to support %s"
-msgstr ""
+msgstr "Το άρθρωμα %s χρειάζεται για την υποστήριξη %s"
 
 #: src/bin/e_grab_dialog.c:3
 #: src/modules/conf_keybindings/e_int_config_keybindings.c:4
@@ -2275,7 +2272,6 @@ msgstr "Λίστα Παραθύρων"
 #: src/modules/pager/e_mod_main.c:2930 src/modules/pager/e_mod_main.c:2932
 #: src/modules/pager/e_mod_main.c:2934 src/modules/pager/e_mod_main.c:2936
 #: src/modules/pager/e_mod_main.c:2938 src/modules/pager/e_mod_main.c:2940
-#, fuzzy
 msgid "Pager"
 msgstr "Διαχειριστής Επιφανειών Εργασίας"
 
@@ -2841,7 +2837,6 @@ msgid "Set Virtual Desktops"
 msgstr "Ορισμός Εικονικών Επιφανειών Εργασίας"
 
 #: src/bin/e_int_menus.c:1318 src/bin/e_int_menus.c:1511
-#, fuzzy
 msgid "No windows"
 msgstr "Χωρίς παράθυρα"
 
@@ -2886,7 +2881,7 @@ msgstr "Να επιτρέπεται στα παράθυρα να καλύπτο�
 #: src/bin/e_int_shelf_config.c:199
 #, c-format
 msgid "Height (%3.0f pixels)"
-msgstr "Υψος (%3.0f pixels)"
+msgstr "Ύψος (%3.0f pixels)"
 
 #: src/bin/e_int_shelf_config.c:202
 msgid "Shrink to Content Width"
@@ -3091,7 +3086,6 @@ msgid "Enlightenment cannot set up its scale system.\n"
 msgstr "Αδυναμία ρύθμισης συστήματος κλιμάκωσης από το Enlightenment.\n"
 
 #: src/bin/e_main.c:552
-#, fuzzy
 msgid "Enlightenment cannot set up its pointer system.\n"
 msgstr "Αδυναμία ρύθμισης συστήματος δείκτη από το Enlightenment.\n"
 
@@ -4070,9 +4064,8 @@ msgid "Unknown"
 msgstr "Άγνωστο"
 
 #: src/bin/e_utils.c:1006 src/bin/e_utils.c:1014
-#, fuzzy
 msgid "Error creating directory"
-msgstr "Αδυναμία δημιουργίας αρχείου!"
+msgstr "Σφάλμα δημιουργίας καταλόγου"
 
 #: src/bin/e_utils.c:1006
 #, c-format
@@ -4080,11 +4073,15 @@ msgid ""
 "Failed to create directory: %s .<br>Check that you have correct permissions "
 "set."
 msgstr ""
+"Αποτυχία δημιουργίας καταλόγου: %s.<br>Ελέγξτε εάν έχετε ορίσει τα σωστά "
+"δικαιώματα."
 
 #: src/bin/e_utils.c:1014
 #, c-format
 msgid "Failed to create directory: %s .<br>A file of that name already exists."
 msgstr ""
+"Αποτυχία δημιουργίας καταλόγου:%s.<br>Υπάρχει ήδη ένα αρχείο με αυτό το "
+"όνομα."
 
 #: src/bin/e_utils.c:1172
 msgid ""
@@ -4567,7 +4564,7 @@ msgid ""
 "is needed<br>for it to function."
 msgstr ""
 "Η οθόνη σας δεν υποστηρίζει επικάλυψη παραθύρου<br>του στοιχειοθέτη. Αυτό "
-"χρειάζεται γι'αυτή την<br>λειτουργία."
+"χρειάζεται γι' αυτή την<br>λειτουργία."
 
 #: src/modules/comp/e_mod_comp.c:3797
 msgid "Compositor Warning"
@@ -4584,16 +4581,15 @@ msgstr ""
 "μηχανή λογισμικού."
 
 #: src/modules/comp/e_mod_comp.c:4136
-#, fuzzy
 msgid ""
 "Your display server does not support XComposite,<br>or Ecore-X was built "
 "without XComposite support.<br>Note that for composite support you will also "
 "need<br>XRender and XFixes support in X11 and Ecore."
 msgstr ""
 "Η οθόνη σας δεν υποστηρίζει την επέκταση XComposite<br>ή το Ecore έχει "
-"κατασκευαστεί χωρίς υποστήριξη του XComposite.<br>Σημειώστε ότι για σύνθετη "
-"υποστήριξη θα χρειαστείτε επίσης<br>υποστήριξη για XRender και XFixes στον "
-"X11 και Ecore."
+"κατασκευαστεί χωρίς υποστήριξη του XComposite.<br>Σημειώστε ότι για "
+"υποστήριξη εφέ composite θα χρειαστείτε επίσης<br>υποστήριξη για XRender και "
+"XFixes στον X11 και Ecore."
 
 #: src/modules/comp/e_mod_comp.c:4146
 msgid ""
@@ -4605,7 +4601,7 @@ msgstr ""
 
 #: src/modules/comp/e_mod_config.c:106
 msgid "Composite Settings"
-msgstr "Σύνθετες Ρυθμίσεις"
+msgstr "Ρυθμίσεις Composite"
 
 #: src/modules/comp/e_mod_config.c:265
 msgid "Visible"
@@ -4652,7 +4648,7 @@ msgstr "Μενού (Αναδυόμενο)"
 #: src/modules/comp/e_mod_config.c:460 src/modules/comp/e_mod_config.c:769
 #: src/modules/notification/e_mod_main.c:151
 msgid "Notification"
-msgstr "Ειδοποίηση"
+msgstr "Ειδοποιήσεις"
 
 #: src/modules/comp/e_mod_config.c:462 src/modules/comp/e_mod_config.c:771
 msgid "Splash"
@@ -4861,9 +4857,8 @@ msgid "Send dump"
 msgstr "Αποστολή αποτύπωσης"
 
 #: src/modules/comp/e_mod_config.c:1239 src/modules/comp/e_mod_config.c:1518
-#, fuzzy
 msgid "Don't composite fullscreen windows"
-msgstr "Μην συντίθετε παράθυρα σε πλήρη οθόνη"
+msgstr "Να μην εφαρμόζεται εφέ composite στα  παράθυρα σε πλήρη οθόνη"
 
 #: src/modules/comp/e_mod_config.c:1267
 msgid "Memory"
@@ -4927,9 +4922,8 @@ msgid "Rendering"
 msgstr "Απεικόνιση"
 
 #: src/modules/comp/e_mod_main.c:43 src/modules/comp/e_mod_main.c:74
-#, fuzzy
 msgid "Composite"
-msgstr "Σύνθετο"
+msgstr "Composite εφέ"
 
 #: src/modules/comp/e_mod_main.c:75
 msgid ""
@@ -5481,6 +5475,10 @@ msgid ""
 "<br><br>You can either specify a delay of this<br> action using the slider, "
 "or make it<br>respond to edge clicks:"
 msgstr ""
+"Παρακαλώ επιλέξτε μια άκρη,<br>ή κάντε κλικ στο <hilight>Κλείσιμο</hilight> "
+"για ματαίωση.<br><br>Μπορείτε να καθορίσετε την καθυστέρηση αυτής της "
+"<br>ενέργειας με την χρήση της μπάρας κύλισης, ή ρυθμίστε την<br>να "
+"ανταποκρίνεται στα κλικ στην άκρη:"
 
 #: src/modules/conf_edgebindings/e_int_config_edgebindings.c:105
 msgid "Edge Bindings Settings"
@@ -6279,15 +6277,14 @@ msgid "Use ARGB instead of shaped windows"
 msgstr "Χρήση ARGB αντί του σχήματος παραθύρων"
 
 #: src/modules/conf_performance/e_int_config_engine.c:110
-#, fuzzy
 msgid ""
 "You have chosen to enable ARGB composite support,<br>but your current screen "
 "does not support composite.<br><br>Are you sure you wish to enable ARGB "
 "support?"
 msgstr ""
-"Έχετε επιλέξει να ενεργοποιήσετε την υποστήριξη ARGB, αλλά<br>τρέχουσα οθόνη "
-"σας δεν υποστηρίζει σύνθετα.<br><br>Είστε βέβαιοι ότι θέλετε να "
-"ενεργοποιήσετε την υποστήριξη ARGB."
+"Έχετε επιλέξει να ενεργοποιήσετε την υποστήριξη composite ARGB, "
+"αλλά<br>τρέχουσα οθόνη σας δεν υποστηρίζει εφέ composite.<br><br>Είστε "
+"βέβαιοι ότι θέλετε να ενεργοποιήσετε την υποστήριξη ARGB;"
 
 #: src/modules/conf_performance/e_int_config_engine.c:114
 msgid "Enable"
@@ -6373,7 +6370,7 @@ msgstr "Επιτρεπόμενα Επίπεδα"
 
 #: src/modules/conf_performance/e_int_config_powermanagement.c:129
 msgid "Time to defer power-hungry tasks"
-msgstr ""
+msgstr "Χρόνος αναβολής ενεργοβόρων εργασιών"
 
 #: src/modules/conf_performance/e_int_config_powermanagement.c:140
 msgid "Min"
@@ -6450,7 +6447,6 @@ msgstr "Ρυθμίσεις Ταπετσαρίας"
 
 #: src/modules/conf_theme/e_int_config_wallpaper.c:436
 #: src/modules/conf_theme/e_int_config_wallpaper.c:589
-#, fuzzy
 msgid "Go up a directory"
 msgstr "Μετάβαση ένα κατάλογο πάνω"
 
@@ -6694,9 +6690,8 @@ msgid "Module Label"
 msgstr "Ετικέτα Αρθρώματος"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:131
-#, fuzzy
 msgid "Composite Focus-out Color"
-msgstr "Χρώμα Σύνθετου Focus -ou"
+msgstr "Χρώμα Απεστίασης Composite"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:163
 #: src/modules/conf_theme/e_mod_main.c:240
@@ -6709,17 +6704,17 @@ msgid "Color class: %s"
 msgstr "Κλάσεις χρωμάτων: %s"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:278
-#, fuzzy, c-format
+#, c-format
 msgid "Selected %u mixed colors classes"
 msgstr "Επιλεγμένες %u κλάσεις ανάμικτων χρωμάτων"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:281
-#, fuzzy, c-format
+#, c-format
 msgid "Selected %u unset colors classes"
 msgstr "Επιλεγμένες %u κλάσεις ουδέτερων χρωμάτων"
 
 #: src/modules/conf_theme/e_int_config_color_classes.c:284
-#, fuzzy, c-format
+#, c-format
 msgid "Selected %u uniform colors classes"
 msgstr "Επιλεγμένες %u κλάσεις ομοιόμορφων χρωμάτων"
 
@@ -7799,6 +7794,8 @@ msgid ""
 "The freqset binary in the cpufreq module<br>directory cannot be found (stat "
 "failed)"
 msgstr ""
+"Δεν μπορεί να βρεθεί το εκτελέσιμο freqset<br>στον κατάλογο του αρθρώματος "
+"cpufreq (αποτυχία stat)"
 
 #: src/modules/cpufreq/e_mod_main.c:1165
 msgid "Cpufreq Permissions Error"
@@ -7811,6 +7808,10 @@ msgid ""
 "have the<br>setuid bit set. Please ensure this is the<br>case. For example:"
 "<br><br>sudo chown root %s<br>sudo chmod u+s,a+x %s<br>"
 msgstr ""
+"Το εκτελέσιμο freqset στο άρθρωμα cpufreq<br>δεν είναι ιδιοκτησία του root ή "
+"δεν έχει οριστεί το<br>setuid. Παρακαλώ διασφαλίστε ότι αυτό είναι "
+"το<br>πρόβλημα. Για παράδειγμα:<br><br>sudo chown root %s<br>sudo chmod u+s,a"
+"+x %s<br>"
 
 #: src/modules/dropshadow/e_mod_config.c:38
 msgid "Dropshadow Settings"
@@ -9339,6 +9340,12 @@ msgid ""
 "GPU<br>with well written drivers.<br>It also will add between 10 to<br>100 "
 "MB to the memory needed<br>for Enlightenment."
 msgstr ""
+"Τα εφέ composite παρέχουν ημιδιαφάνεια<br>στα παράθυρα, εφέ παραθύρων "
+"όπως<br>ξεθώριασμα και εστίαση<br>όταν εμφανίζονται και εξαφανίζονται."
+"<br>Συνιστάται να τα ενεργοποιήσετε<br>για καλύτερη εμπειρία χρήσης, αλλά θα "
+"σας<br>κοστίσει. Απαιτεί περισσότερους πόρους CPU<br>ή ικανότητα GLSL της "
+"CPU<br>μαζί με καλογραμμένους οδηγούς.<br>Θα προσθέσει επίσης μνήμη από 10 "
+"έως<br>100MB στην απαιτούμενη μνήμη<br>για το Enlightenment."
 
 #: src/modules/wizard/page_150.c:117
 msgid "Enable Compositing"
@@ -9373,6 +9380,17 @@ msgid ""
 "not disable this as it<br>may leave you vulnerable or having to live<br>with "
 "bugs."
 msgstr ""
+"Το Enlightenment μπορεί να ελέγχει για νέες<br>εκδόσεις, ενημερώσεις, "
+"διορθώσεις ασφαλείας και<br>σφαλμάτων, όπως επίσης και διαθέσιμα πρόσθετα."
+"<br><br>Αυτό είναι πολύ χρήσιμο γιατί σας επιτρέπει<br>να ενημερώνεστε για "
+"τις διαθέσιμες διορθώσεις σφαλμάτων και<br>ασφαλείας που υπάρχουν. Ως "
+"πρόγραμμα,<br>το Enlightenment θα συνδέεται με την "
+"ιστοσελίδα<br>enlightenment.org και ως αποτέλεσμα θα μεταδίδει μερικές "
+"πληροφορίες,<br>όπως κάνει ο κάθε περιηγητής στο Internet.<br>Δεν θα "
+"αποσταλεί καμιά προσωπική πληροφορία όπως το όνομα χρήστη και "
+"συνθηματικό<br>ή προσωπικά αρχεία. Εάν δεν σας αρέσει αυτό, παρακαλώ "
+"απενεργοποιήστε το παρακάτω.<br>Συνίσταται να μην το απενεργοποιήσετε "
+"γιατί<br>μπορεί να σας αφήσει ευάλωτο σε επιθέσεις<br>ή με σφάλματα."
 
 #: src/modules/wizard/page_170.c:53
 msgid "Enable update checking"
@@ -9652,13 +9670,12 @@ msgid "The requested Quickaccess entry does not exist!"
 msgstr "Δεν υπάρχει η αιτούμενη είσοδος Quickaccess!"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:651
-#, fuzzy
 msgid "Keybind Error"
-msgstr "Σφάλμα Συνδυασμού Άκρης"
+msgstr "Σφάλμα Συνδυασμού Πλήκτρων"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:651
 msgid "The keybinding you have entered is already in use!"
-msgstr ""
+msgstr "Ο συνδυασμός πλήκτρων που εισάγατε είναι ήδη σε χρήση!"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:795
 msgid "Hide Instead Of Raise"
@@ -9704,7 +9721,7 @@ msgstr ""
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:972
 msgid "You deleted it on your own, you rascal!<br>Way to go!"
-msgstr ""
+msgstr "Το διαγράψατε μόνοι σας, κατεργάρηδες!<br>Μπράβο σας!"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:974
 #: src/modules/quickaccess/e_mod_quickaccess.c:1015
@@ -9723,13 +9740,15 @@ msgstr ""
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:1013
 msgid "Well done.<br>Now to delete the entry we just made..."
-msgstr ""
+msgstr "Ωραία.<br>Μόλις διαγράψατε την καταχώρηση που μόλις εισάγαμε..."
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:1029
 msgid ""
 "The demo dialog has been bound to the keys you pressed.<br>Try pressing the "
 "same keys!"
 msgstr ""
+"Το παράθυρο επίδειξης έχει συνδεθεί με τα πλήκτρα που πιέσατε."
+"<br>Προσπαθήστε να πιέσετε τα ίδια πλήκτρα!"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:1194
 msgid ""
@@ -9742,7 +9761,8 @@ msgstr "Επίδειξη Quickaccess"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:1202
 msgid "This is a demo dialog used in the Quickaccess tutorial"
-msgstr "Αυτό είναι ένα παράθυρο επίδειξης που χρησιμοποιείται στο εγχειρίδιο του "
+msgstr ""
+"Αυτό είναι ένα παράθυρο επίδειξης που χρησιμοποιείται στο εγχειρίδιο του "
 "Quickaccess"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:1224
@@ -9763,7 +9783,8 @@ msgstr ""
 msgid ""
 "This appears to be your first time using the Quickaccess module.<br>Would "
 "you like some usage tips?"
-msgstr "Φαίνεται ότι είναι η πρώτη σας φορά που χρησιμοποιείτε το άρθρωμα "
+msgstr ""
+"Φαίνεται ότι είναι η πρώτη σας φορά που χρησιμοποιείτε το άρθρωμα "
 "Quickaccess.<br>Θέλετε να δείτε μερικές συμβουλές χρήσης;"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:1309
@@ -10007,12 +10028,10 @@ msgid "Toggle floating"
 msgstr "Εναλλαγή κίνησης"
 
 #: src/modules/tiling/e_mod_tiling.c:4086
-#, fuzzy
 msgid "Add a stack"
 msgstr "Προσθήκη στοίβας"
 
 #: src/modules/tiling/e_mod_tiling.c:4089
-#, fuzzy
 msgid "Remove a stack"
 msgstr "Αφαίρεση στοίβας"
 
