@@ -13,14 +13,14 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2012-12-17 18:33+0200\n"
-"PO-Revision-Date: 2012-12-21 02:16+0200\n"
+"PO-Revision-Date: 2012-12-21 21:19+0200\n"
 "Last-Translator: Efstathios Iosifidis <iosifidis@opensuse.org>\n"
-"Language-Team: Ελληνικά <opensuse-translation-el@opensuse.org>\n"
+"Language-Team: Ελληνικά, Σύγχρονα <opensuse-translation-el@opensuse.org>\n"
 "Language: el_GR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Transfer-Encoding: 8bits\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Gtranslator 2.91.5\n"
 
 #: src/bin/e_about.c:17
@@ -8728,12 +8728,10 @@ msgid "Uniconify/Unshade"
 msgstr "Αναίρεση εικονιδοποίησης/σκίασης"
 
 #: src/modules/winlist/e_int_config_winlist.c:220
-#, fuzzy
 msgid "Warp mouse while selecting"
 msgstr "Παραμόρφωση ποντικού κατά την επιλογή"
 
 #: src/modules/winlist/e_int_config_winlist.c:224
-#, fuzzy
 msgid "Warp mouse at end"
 msgstr "Παραμόρφωση ποντικιού στο τέλος"
 
@@ -8746,7 +8744,6 @@ msgid "Selecting"
 msgstr "Επιλογή"
 
 #: src/modules/winlist/e_int_config_winlist.c:234
-#, fuzzy
 msgid "Warp speed"
 msgstr "Ταχύτητα παραμόρφωσης"
 
@@ -8920,9 +8917,8 @@ msgid "IBox Settings"
 msgstr "Ρυθμίσεις IBox"
 
 #: src/modules/ibox/e_mod_config.c:98
-#, fuzzy
 msgid "Expand When On Desktop"
-msgstr "Ανάπτυξη στην Επιφάνεια Εργασίας"
+msgstr "Ανάπτυξη όταν είναι στην Επιφάνεια Εργασίας"
 
 #: src/modules/ibox/e_mod_config.c:101
 msgid "Show Icon Label"
@@ -9708,6 +9704,7 @@ msgid "Add Quickaccess"
 msgstr "Προσθήκη Quickaccess"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:933
+#, fuzzy
 msgid ""
 "The options found in the Quickaccess menu are as follows:"
 "<br><hilight>Autohide</hilight> - hide the window whenever it loses "
@@ -9718,6 +9715,14 @@ msgid ""
 "exits<br><hilight>Transient</hilight> - Remember only this instance of the "
 "window (not permanent)"
 msgstr ""
+"Οι διαθέσιμες επιλογές στο μενού του Quickaccess είναι:<br><hilight>Αυτόματη "
+"Απόκρυψη</hilight> - απόκρυψη του παραθύρου όταν αυτό χάνει την "
+"εστίαση<br><hilight>Απόκρυψη Αντί Ανύψωσης</hilight> - Απόκρυψη παραθύρου "
+"όταν ενεργοποιείται χωρίς να εστιάζεται<br><hilight>Κατάσταση Jump</hilight> "
+"- Εναλλαγή Switch to window's desk and raise instead of showing/"
+"hiding<br><hilight>Relaunch When Closed</hilight> - Run the entry's command "
+"again when its window exits<br><hilight>Transient</hilight> - Remember only "
+"this instance of the window (not permanent)"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:972
 msgid "You deleted it on your own, you rascal!<br>Way to go!"
@@ -9778,6 +9783,10 @@ msgid ""
 "associated window can be returned to immediately<br>on demand by pushing the "
 "keyboard shortcut."
 msgstr ""
+"Το Quickaccess είναι ο επιλεγμένος από τον χρήστη τρόπος σύδεσης<br>των "
+"παραθύρων και των εφαρμογών με συντομεύσεις πληκτρολογίου.<br>Μετά την "
+"δημιουργία της καταχώρησης για το Quickaccess,<br>το συσχετισμένο παράθυρο "
+"μπορεί να επανέλθει άμεσα<br>με την χρήση των συντομεύσεων πληκτρολογίου."
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:1262
 msgid ""
