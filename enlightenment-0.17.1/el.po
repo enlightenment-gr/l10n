@@ -6,14 +6,15 @@
 # Aron Xu <aronmalache@163.com>, 2008.
 # Giorgos RageCryX Koutsikos <ragecryx@yahoo.gr>, 2009.
 # George Koutsikos <ragecryx@yahoo.gr>, 2011.
-# Efstathios Iosifidis <iosifidis@opensuse.org>, 2012.
 # 
+# Efstathios Iosifidis <iosifidis@opensuse.org>, 2012., 2013.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2013-01-23 17:10+0400\n"
-"PO-Revision-Date: 2012-12-21 21:19+0200\n"
+"PO-Revision-Date: 2013-01-27 12:40+0200\n"
 "Last-Translator: Efstathios Iosifidis <iosifidis@opensuse.org>\n"
 "Language-Team: Ελληνικά, Σύγχρονα <opensuse-translation-el@opensuse.org>\n"
 "Language: el_GR\n"
@@ -2850,9 +2851,9 @@ msgstr "Παράθυρο χωρίς τίτλο"
 
 #: src/bin/e_int_menus.c:1627 src/bin/e_shelf.c:1636
 #: src/modules/conf_shelves/e_int_config_shelf.c:191
-#, fuzzy, c-format
+#, c-format
 msgid "Shelf %s"
-msgstr "Ράφι #"
+msgstr "Ράφι %s"
 
 #: src/bin/e_int_menus.c:1695
 msgid "Add a Shelf"
@@ -3723,9 +3724,9 @@ msgid "Right-bottom Corner"
 msgstr "Δεξιά-κάτω Γωνία"
 
 #: src/bin/e_shelf.c:268 src/bin/e_shelf.c:1121
-#, fuzzy, c-format
+#, c-format
 msgid "Shelf #%d"
-msgstr "Ράφι #"
+msgstr "Ράφι #%d"
 
 #: src/bin/e_shelf.c:892
 msgid "Shelf Autohide Error"
@@ -3798,9 +3799,9 @@ msgid "Refresh"
 msgstr "Ανανέωση"
 
 #: src/bin/e_startup.c:66
-#, fuzzy, c-format
+#, c-format
 msgid "Starting %s"
-msgstr "Εκκινείται"
+msgstr "Έναρξη %s"
 
 #: src/bin/e_sys.c:295
 msgid "Checking System Permissions"
@@ -4137,53 +4138,53 @@ msgid "Never"
 msgstr "Ποτέ"
 
 #: src/bin/e_utils.c:1293
-#, fuzzy, c-format
+#, c-format
 msgid "A second"
 msgid_plural "%li Seconds"
-msgstr[0] "%.1f δευτερόλεπτα"
-msgstr[1] "%.1f δευτερόλεπτα"
+msgstr[0] "Ένα δευτερόλεπτο"
+msgstr[1] "%li Δευτερόλεπτα"
 
 #: src/bin/e_utils.c:1297
-#, fuzzy, c-format
+#, c-format
 msgid "One year"
 msgid_plural "%li Years"
 msgstr[0] "Ένας χρόνος"
-msgstr[1] "Ένας χρόνος"
+msgstr[1] "%li χρόνια"
 
 #: src/bin/e_utils.c:1302
-#, fuzzy, c-format
+#, c-format
 msgid "One month"
 msgid_plural "%li Months"
 msgstr[0] "Ένας μήνας"
-msgstr[1] "Ένας μήνας"
+msgstr[1] "%li Μήνες"
 
 #: src/bin/e_utils.c:1307
-#, fuzzy, c-format
+#, c-format
 msgid "One week"
 msgid_plural "%li Weeks"
 msgstr[0] "Μια εβδομάδα"
-msgstr[1] "Μια εβδομάδα"
+msgstr[1] "%li Εβδομάδες"
 
 #: src/bin/e_utils.c:1312
-#, fuzzy, c-format
+#, c-format
 msgid "One day"
 msgid_plural "%li Days"
 msgstr[0] "Μια ημέρα"
-msgstr[1] "Μια ημέρα"
+msgstr[1] "%li Ημέρες"
 
 #: src/bin/e_utils.c:1317
-#, fuzzy, c-format
+#, c-format
 msgid "An hour"
 msgid_plural "%li Hours"
 msgstr[0] "Μια ώρα"
-msgstr[1] "Μια ώρα"
+msgstr[1] "%li Ώρες"
 
 #: src/bin/e_utils.c:1322
-#, fuzzy, c-format
+#, c-format
 msgid "A minute"
 msgid_plural "%li Minutes"
 msgstr[0] "Ένα λεπτό"
-msgstr[1] "Ένα λεπτό"
+msgstr[1] "%li Λεπτά"
 
 #: src/bin/e_widget_config_list.c:60 src/modules/comp/e_mod_config.c:1092
 #: src/modules/conf_applications/e_int_config_apps.c:266
@@ -5627,13 +5628,12 @@ msgstr "(μπορείτε να κάνετε κλικ)"
 
 #: src/modules/conf_edgebindings/e_int_config_signalbindings.c:574
 #: src/modules/conf_edgebindings/e_int_config_signalbindings.c:584
-#, fuzzy
 msgid "Signal Binding Error"
-msgstr "Συνδυασμοί Σήματος"
+msgstr "Σφάλμα Συνδυασμών Σήματος"
 
 #: src/modules/conf_edgebindings/e_int_config_signalbindings.c:574
 msgid "Signal and Source must NOT be blank!"
-msgstr ""
+msgstr "Το Σήμα και η Πηγή ΔΕΝ πρέπει να είναι κενά!"
 
 #: src/modules/conf_edgebindings/e_int_config_signalbindings.c:585
 #, fuzzy, c-format
@@ -5645,18 +5645,16 @@ msgstr ""
 "<br><hilight>%s</hilight>. <br>Παρακαλώ επιλέξτε άλλη άκρη να συνδυάσετε."
 
 #: src/modules/conf_edgebindings/e_int_config_signalbindings.c:634
-#, fuzzy
 msgid "Add Signal Binding"
-msgstr "Συνδυασμοί Σήματος"
+msgstr "Προσθήκη Συνδυασμών Σήματος"
 
 #: src/modules/conf_edgebindings/e_int_config_signalbindings.c:645
-#, fuzzy
 msgid "Source:"
-msgstr "Μετακίνηση Πηγής"
+msgstr "Πηγή:"
 
 #: src/modules/conf_edgebindings/e_int_config_signalbindings.c:650
 msgid "Signal:"
-msgstr ""
+msgstr "Σήμα:"
 
 #: src/modules/conf_edgebindings/e_int_config_signalbindings.c:804
 #: src/modules/conf_edgebindings/e_mod_main.c:25
@@ -5664,9 +5662,8 @@ msgid "Signal Bindings"
 msgstr "Συνδυασμοί Σήματος"
 
 #: src/modules/conf_edgebindings/e_int_config_signalbindings.c:865
-#, fuzzy
 msgid "Signal Bindings Settings"
-msgstr "Ρυθμίσεις Συνδυασμών Άκρων"
+msgstr "Ρυθμίσεις Συνδυασμών Σήματος"
 
 #: src/modules/conf_edgebindings/e_mod_main.c:17
 #: src/modules/conf_interaction/e_mod_main.c:17
@@ -6469,9 +6466,9 @@ msgid "Screen Setup"
 msgstr "Ρυθμίσεις Οθόνης"
 
 #: src/modules/conf_shelves/e_int_config_shelf.c:127
-#, fuzzy, c-format
+#, c-format
 msgid "Configured Shelves: Display %d"
-msgstr "Ρυθμισμένα Ράφια: Εμφάνιση"
+msgstr "Ρυθμισμένα Ράφια: Εμφάνιση %d"
 
 #: src/modules/conf_shelves/e_int_config_shelf.c:388
 #, c-format
@@ -7674,9 +7671,8 @@ msgid "Kill process if unclosable"
 msgstr "Διεργασία βίαιου τερματισμού εάν δεν κλείνει"
 
 #: src/modules/conf_window_manipulation/e_int_config_window_process.c:97
-#, fuzzy
 msgid "Kill process instead of client"
-msgstr "Διεργασία βίαιου τερματισμού αντί για πελάτη"
+msgstr "Βίαιος τερματισμός διεργασίας αντί του πελάτη"
 
 #: src/modules/conf_window_manipulation/e_int_config_window_process.c:99
 msgid "Kill timeout:"
@@ -8231,9 +8227,8 @@ msgid "Move to Trash"
 msgstr "Μετακίνηση στα απορρίματα"
 
 #: src/modules/everything/evry_plug_files.c:1331
-#, fuzzy
 msgid "Open Directory"
-msgstr "Νέος Κατάλογος"
+msgstr "Άνοιγμα Καταλόγου"
 
 #: src/modules/everything/evry_plug_files.c:1335
 msgid "Sort by Date"
@@ -8638,9 +8633,8 @@ msgid "Navigate"
 msgstr "Περιήγηση"
 
 #: src/modules/fileman/e_mod_main.c:275
-#, fuzzy
 msgid "Fileman"
-msgstr "Διαχειριστής Αρχείων"
+msgstr "Διαχειριστής Αρχείων Fileman"
 
 #: src/modules/fileman/e_mod_menu.c:239
 msgid "No listable items"
@@ -9272,9 +9266,8 @@ msgid "Syscon"
 msgstr "Syscon"
 
 #: src/modules/syscon/e_syscon_gadget.c:72
-#, fuzzy
 msgid "Show Menu"
-msgstr "Εμφάνιση μενού..."
+msgstr "Εμφάνιση Μενού"
 
 #: src/modules/temperature/e_mod_config.c:56
 msgid "Temperature Settings"
@@ -9438,7 +9431,6 @@ msgid "Check for available updates"
 msgstr "Έλεγχος διαθέσιμων ενημερώσεων"
 
 #: src/modules/wizard/page_170.c:32
-#, fuzzy
 msgid ""
 "Enlightenment can check for new<br>versions, updates, security "
 "and<br>bugfixes, as well as available add-ons.<br><br>This is very useful, "
@@ -9455,13 +9447,13 @@ msgstr ""
 "διορθώσεις ασφαλείας και<br>σφαλμάτων, όπως επίσης και διαθέσιμα πρόσθετα."
 "<br><br>Αυτό είναι πολύ χρήσιμο γιατί σας επιτρέπει<br>να ενημερώνεστε για "
 "τις διαθέσιμες διορθώσεις σφαλμάτων και<br>ασφαλείας που υπάρχουν. Ως "
-"πρόγραμμα,<br>το Enlightenment θα συνδέεται με την "
-"ιστοσελίδα<br>enlightenment.org και ως αποτέλεσμα θα μεταδίδει μερικές "
-"πληροφορίες,<br>όπως κάνει ο κάθε περιηγητής στο Internet.<br>Δεν θα "
-"αποσταλεί καμιά προσωπική πληροφορία όπως το όνομα χρήστη και "
-"συνθηματικό<br>ή προσωπικά αρχεία. Εάν δεν σας αρέσει αυτό, παρακαλώ "
-"απενεργοποιήστε το παρακάτω.<br>Συνίσταται να μην το απενεργοποιήσετε "
-"γιατί<br>μπορεί να σας αφήσει ευάλωτο σε επιθέσεις<br>ή με σφάλματα."
+"αποτέλεσμα,<br>το Enlightenment θα συνδέεται με την "
+"ιστοσελίδα<br>enlightenment.org και θα μεταδίδει μερικές πληροφορίες,"
+"<br>όπως κάνει ο κάθε περιηγητής στο Internet.<br>Δεν θα αποσταλεί καμιά "
+"προσωπική πληροφορία όπως το όνομα χρήστη και συνθηματικό<br>ή προσωπικά "
+"αρχεία. Εάν δεν σας αρέσει αυτό, παρακαλώ απενεργοποιήστε το παρακάτω."
+"<br>Συνίσταται να μην το απενεργοποιήσετε γιατί<br>μπορεί να αφήσει το "
+"σύστημά σας ευάλωτο σε επιθέσεις<br>ή με σφάλματα."
 
 #: src/modules/wizard/page_170.c:53
 msgid "Enable update checking"
@@ -10062,9 +10054,8 @@ msgid "Show text only"
 msgstr "Εμφάνιση μόνο κειμένου"
 
 #: src/modules/tasks/e_mod_config.c:98
-#, fuzzy
 msgid "Item width"
-msgstr "Ελάχιστο πλάτος"
+msgstr "Πλάτος Αντικειμένου"
 
 #: src/modules/tasks/e_mod_config.c:100 src/modules/tasks/e_mod_config.c:105
 #, c-format
@@ -10072,9 +10063,8 @@ msgid "%1.0f px"
 msgstr "%1.0f px"
 
 #: src/modules/tasks/e_mod_config.c:103
-#, fuzzy
 msgid "Item height"
-msgstr "Ελάχιστο ύψος"
+msgstr "Ύψος Αντικειμένου"
 
 #: src/modules/tiling/e_mod_config.c:135
 msgid "columns"
@@ -10141,9 +10131,8 @@ msgid "Move window to the left"
 msgstr "Μετακίνηση παραθύρου στα αριστερά"
 
 #: src/modules/tiling/e_mod_tiling.c:4105
-#, fuzzy
 msgid "Move window to the right"
-msgstr "Μετακίνηση παραθύρου στα αριστερά"
+msgstr "Μετακίνηση παραθύρου στα δεξιά"
 
 #: src/modules/tiling/e_mod_tiling.c:4108
 msgid "Move window up"
